@@ -12,6 +12,39 @@ Ways that git and GitHub can help your personal computational workflow -- even i
 
 Is this a familiar sight in your working directory?
 
+```
+mycode.py
+mycode_jane.py
+mycode_ver1b.py
+mycode_ver1c.py
+mycode_ver1b_january.py
+mycode_ver1b_january_BROKEN.py
+mycode_ver1b_january_FIXED.py
+mycode_ver1b_january_FIXED_for_supervisor.py
+```
+
+For many people, this is just the beginning.  For a project that has existed long enough there might be dozens or even hundreds of these simple scripts that somehow define all of part of your computational workflow.  Version control isn't being used because 'The code is just a simple script developed by one person' and yet this situation is already becoming the breeding ground for future problems.
+
+* Which one of these files is the most up to date?
+* Which one produced the results in your latest paper or report?
+* Which one contains the new work that will lead to your next paper?
+* Which ones contain deep flaws that should never be used as part of the research?
+* Which ones contain possibly useful ideas that have since been removed from the most recent version?
+
+Applying version control to this situation would lead you to a folder containing just one file
+
+```
+mycode.py
+```
+
+All of the other versions will still be available via the commit history.  Nothing is ever lost and you'll be able to effectively go back in time to any version of `mycode.py` you like.
+
+## A single point of truth
+
+I've even seen folders like the one above passed down generations of PhD students like some sort of family heirloom.  I've seen labs where multple such folders exist across a dozen machines, each one with a mixture of duplicated and unique files.
+
+## Keeping track of everything that changed
+
 ## Always having a working version
 
 ## Tracking down what went wrong
