@@ -81,6 +81,8 @@ How git and GitHub can contribute to improved reproducible research.
 
 ## Making your software citable
 
+## Building a computational environment based on your repo
+
 # Further Resources
 
 **Graphical User Interfaces to git**
