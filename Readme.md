@@ -4,7 +4,9 @@ Many people suggest that you should use version control as part of your scientif
 
 There are a lot of reasons to **not** embrace the git but there are even more to go ahead and do it.  This is an attempt to convince you that it's all going to be worth it alongside a bunch of resources that make it easy to get started and academic papers discussing the issues that version control can help resolve.
 
-# General improvements to individual workflow
+This document will not address**how** to do version control but will instead try to answer the questions **what** you can do with it and  **why** you should bother.
+
+# Improvements to individual workflow
 
 Ways that git and GitHub can help your personal computational workflow -- even if your project is just one or two files and you are the only person working on it.
 
@@ -55,9 +57,16 @@ The power of this simple idea cannot be overstated.  Whenever you (or anyone els
 
 ## Always having a working version
 
-## Tracking down what went wrong
+## Tracking down what went wrong with your code
 
 ## Providing a back up of your project
+
+Try this thought experiment:  Your laptop/PC has gone! Fire, theft, dead hard disk or crazy panda attack.
+
+It, and all of it's contents have vanished forever.  How do you feel? What's running through your mind?
+If you feel the icy cold fingers of dread crawling up your spine as you realise **Everything related to my PhD/project/life's work is lost** then you have made bad life choices.  In particular, you made a terrible choice when you neglected to take back ups.
+
+Of course there are many ways to back up a project but if you are using the standard version control workflow, your code is automatically backed up as a matter of course.  You don't have to remember to back things up, back-ups happen as a natural result of your everyday way of doing things. 
 
 ## Making your project easier to install
 
