@@ -49,6 +49,8 @@ By using a GitHub repository you have a **single point of truth** for your proje
 
 Everything...one place.
 
+The power of this simple idea cannot be overstated.  Whenever you (or anyone else) wants to use or continue working on your project, it is always obvious where to go.  Never again will you waste several days work only to realise that you weren't working on the latest version.
+
 ## Keeping track of everything that changed
 
 ## Always having a working version
