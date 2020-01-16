@@ -45,7 +45,9 @@ I've even seen folders like the one above passed down generations of PhD student
 
 This can even be true when only one person is working on a project.  Perhaps you have one version of your folder on your University HPC cluster, one on your home laptop and one on your work machine.  Perhaps you email zipped versions to yourself from time to time.  There are many everyday events that can lead to this state of affairs.
 
-By using a GitHub repository you have a **single point of truth** for your project.  The latest version is there.  All old versions are there. All discussion about it is there. Everything...one place
+By using a GitHub repository you have a **single point of truth** for your project.  The latest version is there.  All old versions are there. All discussion about it is there. 
+
+Everything...one place.
 
 ## Keeping track of everything that changed
 
@@ -55,9 +57,19 @@ By using a GitHub repository you have a **single point of truth** for your proje
 
 ## Providing a back up of your project
 
+## Making your project easier to install
+
+## Automatically run all of your tests
+
 # Collaboration and Community
 
 How git and GitHub can make it easier to collaborate with others on computational projects.
+
+## Control exactly who can see your work
+
+## Faciliate discussion about your work
+
+## Allow others to contribute to your work
 
 # Reproducible research
 
