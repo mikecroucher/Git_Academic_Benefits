@@ -4,13 +4,31 @@ Many people suggest that you should use version control as part of your scientif
 
 There are a lot of reasons to **not** embrace the git but there are even more to go ahead and do it.  This is an attempt to convince you that it's all going to be worth it alongside a bunch of resources that make it easy to get started and academic papers discussing the issues that version control can help resolve.
 
+# General improvements to individual workflow
+
+Ways that git and GitHub can help your personal computational workflow -- even if your project is just one or two files and you are the only person working on it.
+
 ## Fixing filename hell
 
 Is this a familiar sight in your working directory?
 
+## Always having a working version
+
+## Tracking down what went wrong
+
+# Collaboration and Community
+
+How git and GitHub can make it easier to collaborate with others on computational projects.
+
+# Reproducible research
+
+How git and GitHub can contribute to improved reproducible research.
+
 ## Which version gave these results?
 
-# Resources
+## Making your software citable
+
+# Further Resources
 
 **Further discussions from scientific computing practitioners that discuss using version control as part of a healthy approach to scientific computing**
 
