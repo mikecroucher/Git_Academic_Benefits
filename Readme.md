@@ -63,6 +63,8 @@ The power of this simple idea cannot be overstated.  Whenever you (or anyone els
 
 Try this thought experiment:  Your laptop/PC has gone! Fire, theft, dead hard disk or crazy panda attack.
 
+[He found out that they weren't using version control](./assets/panda.gif)
+
 It, and all of it's contents have vanished forever.  How do you feel? What's running through your mind?
 If you feel the icy cold fingers of dread crawling up your spine as you realise **Everything related to my PhD/project/life's work is lost** then you have made bad life choices.  In particular, you made a terrible choice when you neglected to take back ups.
 
