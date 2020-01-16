@@ -53,6 +53,8 @@ By using a GitHub repository you have a **single point of truth** for your proje
 
 ## Tracking down what went wrong
 
+## Providing a back up of your project
+
 # Collaboration and Community
 
 How git and GitHub can make it easier to collaborate with others on computational projects.
