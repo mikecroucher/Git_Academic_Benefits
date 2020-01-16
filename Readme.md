@@ -83,6 +83,10 @@ How git and GitHub can contribute to improved reproducible research.
 
 # Further Resources
 
+**Graphical User Interfaces to git**
+
+PLACEHOLDER FOR GIT DESKTOP, GIT KRACKEN AND ALL THAT JAZZ
+
 **Further discussions from scientific computing practitioners that discuss using version control as part of a healthy approach to scientific computing**
 
 * [Good Enough Practices in Scientific Computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) - 
