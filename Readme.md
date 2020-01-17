@@ -2,9 +2,13 @@
 
 Many people suggest that you should use version control as part of your scientifc workflow.  This is usually quickly followed up by recommendations to learn git and to put your project on GitHub.  Learning and doing all of this for the first time takes a lot of effort. Alongside all of  the recommendations to learn these technologies are horror stories telling how difficult it can be and memes saying that no one really knows what they are doing!  
 
+<img src="https://imgs.xkcd.com/comics/git.png"></img>
+
 There are a lot of reasons to **not** embrace the git but there are even more to go ahead and do it.  This is an attempt to convince you that it's all going to be worth it alongside a bunch of resources that make it easy to get started and academic papers discussing the issues that version control can help resolve.
 
 This document will not address **how** to do version control but will instead try to answer the questions **what** you can do with it and  **why** you should bother.
+
+Feel free to discuss in the Issues section and make Pull Requests if you feel like contributing.
 
 # Improvements to individual workflow
 
