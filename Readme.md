@@ -98,6 +98,12 @@ In addition to this, some popular computational environments now allow you to in
 
 ## Automatically run all of your tests
 
+You've sipped of the KoolAid and you've been writing unit tests like a pro.  GitHub allows you to link your repo with something called [Continuous Integration (CI)](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/about-continuous-integration) that helps maximise the utility of those tests.
+
+Once its all set up the CI service runs every time you, or anyone else, makes a commit to your project. Every time the CI service runs, a virtual machine is created from scratch, your project is installed into it and all of your tests are run with any failures reported.  
+
+This gives you increased confidence that everything is OK with your latest version and you can choose to only accept commits that do not break your testing framework.
+
 # Collaboration and Community
 
 How git and GitHub can make it easier to collaborate with others on computational projects.
