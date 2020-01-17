@@ -183,6 +183,12 @@ It's not just about code.....
 * [Put your presentations on GitHub](https://github.com/hakimel/reveal.js/).  I use reveal.js combined with GitHub pages to build and serve my presentations.  That way, whenever I turn up at an event to speak I can use whatever computer is plugged into the projector.  No more 'I don't have the right adaptor' hell for me.  
 * [Write your next grant proposal](http://www.walkingrandomly.com/?p=5649).  Use Markdown, LaTex or some other git-friendly text format and use git and GitHub to collaboratively write your next grant proposal
 
+The movie below is a visualisation showing how a large H2020 grant proposal called OpenDreamKit was built on GitHub.  Can you guess when the deadline was based on the activity?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kM9zcfRtOqo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 # Further Resources
 
 **Further discussions from scientific computing practitioners that discuss using version control as part of a healthy approach to scientific computing**
