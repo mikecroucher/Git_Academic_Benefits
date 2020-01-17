@@ -2,9 +2,13 @@
 
 Many people suggest that you should use version control as part of your scientifc workflow.  This is usually quickly followed up by recommendations to learn git and to put your project on GitHub.  Learning and doing all of this for the first time takes a lot of effort. Alongside all of  the recommendations to learn these technologies are horror stories telling how difficult it can be and memes saying that no one really knows what they are doing!  
 
+<a href="https://imgs.xkcd.com/comics/git.png"><img src="https://imgs.xkcd.com/comics/git.png"></img></a>
+
 There are a lot of reasons to **not** embrace the git but there are even more to go ahead and do it.  This is an attempt to convince you that it's all going to be worth it alongside a bunch of resources that make it easy to get started and academic papers discussing the issues that version control can help resolve.
 
-This document will not address **how** to do version control but will instead try to answer the questions **what** you can do with it and  **why** you should bother.
+This document will not address **how** to do version control but will instead try to answer the questions **what** you can do with it and  **why** you should bother.  It was inspired by a conversation on twitter:
+
+Feel free to discuss in the Issues section and make Pull Requests if you feel like contributing.
 
 # Improvements to individual workflow
 
@@ -41,7 +45,8 @@ mycode.py
 
 All of the other versions will still be available via the commit history.  Nothing is ever lost and you'll be able to effectively go back in time to any version of `mycode.py` you like.
 
-![Git Resolution](https://twitter.com/garabatokid/status/1218104099234832387/photo/1)
+
+<a href="https://twitter.com/garabatokid/status/1218104099234832387"><img src="./assets/git_resolution.png" width="400"></img></a>
 
 ## A single point of truth
 
@@ -75,6 +80,8 @@ You are always changing that script and you test it as much as you can but the f
 
 With git you can use [git bisect](https://neliosoftware.com/blog/git-bisect-to-find-faulty-commit/) to help you track down which commit started causing the problem which is the first step towards fixing it.
 
+![It has all gone wrong](./assets/fire_gif.gif)
+
 ## Providing a back up of your project
 
 Try this thought experiment:  Your laptop/PC has gone! Fire, theft, dead hard disk or crazy panda attack.
@@ -91,6 +98,8 @@ Of course there are many ways to back up a project but if you are using the stan
 There are dozens of ways to distribute your software to someone else.  You could (HORRORS!) email the latest version to a colleuage or you could have a .zip file on your web site and so on.  
 
 Each of these methods has a small cognitive load for both recipient and sender.  You need to make sure that you remember to update that .zip file on your website and your user needs to find it. I don't want to talk about the email case, it makes me too sad.  If you and your collaborator are emailing code to each other, please stop. Think of the children! 
+
+<a href="https://xkcd.com/1742/"><img src="https://imgs.xkcd.com/comics/will_it_work.png"></img></a>
 
 One great thing about using GitHub is that it is a standardised way of obtaining software.  When someone asks for your code, you send them the URL of the repo.  Assuming that the world is a better place and everyone knows how to use git, you don't need to do anything else since the repo URL is all they need to get your code.  a `git clone` later and they are in business.  
 
@@ -127,6 +136,7 @@ You have absolute control over external contributions!  No one can make any modi
 I start with the above statement because I've found that when explaining how easy it is to collaborate on GitHub, the first question is almost always 'How do I keep control of all of this?'
 
 What happens is that anyone can 'fork' your project into their account.  That is, they have an independent copy of your work that is clearly linked back to your original.  They can happily work away on their copy as much as they like -- with no involvement from you.  If and when they want to suggest that some of their modifications should go into your original version, they make a 'Pull **Request**'.  
+
 I emphasised the word 'Request' because that's exactly what it is.  You can completely ignore it if you want and your project will remain unchanged.  Alternatively you might choose to discuss it with the contributor and make modifications of your own before accepting it.  At the other end of the spectrum you might simply say 'looks cool' and accept it immediately.  
 
 Congratulations, you've just found a contributing collaborator.
@@ -134,6 +144,10 @@ Congratulations, you've just found a contributing collaborator.
 # Reproducible research
 
 How git and GitHub can contribute to improved reproducible research.
+
+## Simply making your software available
+
+A paper published without the supporting software and data is (much!) harder to reproduce than one that has both. 
 
 ## Making your software citable
 
@@ -143,15 +157,31 @@ Once your code is in GitHub, it is straightforward to archive the version that g
 
 ## Which version gave these results?
 
-## Building a computational environment based on your repo
+Anyone who has worked with software long enough knows that simply stating the name of the software you used is often insufficient to ensure that someone else could reproduce your results. To help improve the odds, you should state **exactly** which version of the software you used and one way to do this is to refer to the [git commit hash](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History).  Alternatively, you could go one step better and make a [GitHub release](https://help.github.com/en/github/administering-a-repository/creating-releases) of the version of your project used for your latest paper, get it a DOI and cite it.
+
+This doesn't guarentee reproducibility but its a step in the right direction.  For extra points, you may consider making the computational environment reproducible too (e.g. all of the dependencies used by your script -- Python modules, R packages and so on) using technologies such as [Docker](https://www.docker.com/), [Conda](https://docs.conda.io/en/latest/) and [MRAN](https://mran.microsoft.com/) but further discussion of these is out of scope for this article.
+
+## Building a computational environment based on your repository
+
+Once your project is on GitHub, it is possible to integrate it with many other online services.  One such service is [mybinder](https://mybinder.org/) which allows the generation of an executable environment based on the contents of your repository. This makes your code immediately reproducible by anyone, anywhere.
+
+Similar projects are popping up elsewhere such as [The Littlest JupyterHub deploy to Azure button](https://github.com/trallard/TLJH-azure-button) which allows you to add a button to your GitHub repo that, when pressed by a user, builds a server in their Azure cloud account complete with your code and a computational environment specified by you along with a JupterHub instance that allows them to run Jupyter notebooks.  This allows you to write interactive papers based on your software and data that can be used by anyone.
 
 ## Complying with funding and journal guidelines
 
+When I started teaching and advocating the use of technologies such as git I used to make a prediction *These practices are so obviously good for computational research that they will one day be mandated by journal editors and funding providers.  As such, you may as well get ahead of the curve and start using them now before the day comes when your funding is cut off because you don't.*  The resulting debate was usually good fun.
+
+My prediction is yet to come true across the board but it is increasingly becoming the case where eyebrows are raised when papers that rely on software are published don't come with the supporting software and data.  Research Software Engineers (RSEs) are increasingly being added to funding review panels and they may be Reviewer 2 for your latest paper submission.   
+
+# Other uses of git and GitHub for busy academics
+
+It's not just about code.....
+
+* [Build your own websites using GitHub pasges](https://pages.github.com/).  Every repo can have its own website served directly from GitHub
+* [Put your presentations on GitHub](https://github.com/hakimel/reveal.js/).  I use reveal.js combined with GitHub pages to build and serve my presentations.  That way, whenever I turn up at an event to speak I can use whatever computer is plugged into the projector.  No more 'I don't have the right adaptor' hell for me.  
+* [Write your next grant proposal](http://www.walkingrandomly.com/?p=5649).  Use Markdown, LaTex or some other git-friendly text format and use git and GitHub to collaboratively write your next grant proposal
+
 # Further Resources
-
-**Graphical User Interfaces to git**
-
-PLACEHOLDER FOR GIT DESKTOP, GIT KRACKEN AND ALL THAT JAZZ
 
 **Further discussions from scientific computing practitioners that discuss using version control as part of a healthy approach to scientific computing**
 
@@ -166,4 +196,10 @@ Convinced? Want to start learning?  Let's begin!
 
 * [Git lesson from Software Carpentry](https://swcarpentry.github.io/git-novice/) - A free, community written tutorial on the basics of git version control
 
+**Graphical User Interfaces to git**
+
+If you prefer not to use the command line, try these
+
+* [GitHub Desktop](https://desktop.github.com/)
+* [Git Kracken](https://www.gitkraken.com/)
 
