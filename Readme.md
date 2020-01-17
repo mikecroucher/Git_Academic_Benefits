@@ -4,7 +4,7 @@ Many people suggest that you should use version control as part of your scientif
 
 There are a lot of reasons to **not** embrace the git but there are even more to go ahead and do it.  This is an attempt to convince you that it's all going to be worth it alongside a bunch of resources that make it easy to get started and academic papers discussing the issues that version control can help resolve.
 
-This document will not address**how** to do version control but will instead try to answer the questions **what** you can do with it and  **why** you should bother.
+This document will not address **how** to do version control but will instead try to answer the questions **what** you can do with it and  **why** you should bother.
 
 # Improvements to individual workflow
 
@@ -84,7 +84,17 @@ If you feel the icy cold fingers of dread crawling up your spine as you realise 
 
 Of course there are many ways to back up a project but if you are using the standard version control workflow, your code is automatically backed up as a matter of course.  You don't have to remember to back things up, back-ups happen as a natural result of your everyday way of doing things. 
 
-## Making your project easier to install
+## Making your project easier to find and install
+
+There are dozens of ways to distribute your software to someone else.  You could (HORRORS!) email the latest version to a colleuage or you could have a .zip file on your web site and so on.  
+
+Each of these methods has a small cognitive load for both recipient and sender.  You need to make sure that you remember to update that .zip file on your website and your user needs to find it. I don't want to talk about the email case, it makes me too sad.  If you and your collaborator are emailing code to each other, please stop. Think of the children! 
+
+One great thing about using GitHub is that it is a standardised way of obtaining software.  When someone asks for your code, you send them the URL of the repo.  Assuming that the world is a better place and everyone knows how to use git, you don't need to do anything else since the repo URL is all they need to get your code.  a `git clone` later and they are in business.  
+
+Additionally, you don't need to worry abut remembering to turn your working directory into a .zip file and uploading it to your website.  The code is naturally available for download as part of the standard workflow.  No extra thought needed! 
+
+In addition to this, some popular computational environments now allow you to install packages directly from GitHub.  If, for example, you are following standard good practice for building an R package then a user can install it directly from your GitHub repo from within R using the `devtools::install_github()` function.
 
 ## Automatically run all of your tests
 
