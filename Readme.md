@@ -2,11 +2,11 @@
 
 Many people suggest that you should use version control as part of your scientifc workflow.  This is usually quickly followed up by recommendations to learn git and to put your project on GitHub.  Learning and doing all of this for the first time takes a lot of effort. Alongside all of  the recommendations to learn these technologies are horror stories telling how difficult it can be and memes saying that no one really knows what they are doing!  
 
-<img src="https://imgs.xkcd.com/comics/git.png"></img>
+<a href="https://imgs.xkcd.com/comics/git.png"><img src="https://imgs.xkcd.com/comics/git.png"></img></a>
 
 There are a lot of reasons to **not** embrace the git but there are even more to go ahead and do it.  This is an attempt to convince you that it's all going to be worth it alongside a bunch of resources that make it easy to get started and academic papers discussing the issues that version control can help resolve.
 
-This document will not address **how** to do version control but will instead try to answer the questions **what** you can do with it and  **why** you should bother.
+This document will not address **how** to do version control but will instead try to answer the questions **what** you can do with it and  **why** you should bother.  It was inspired by a conversation on twitter:
 
 Feel free to discuss in the Issues section and make Pull Requests if you feel like contributing.
 
@@ -168,6 +168,14 @@ Similar projects are popping up elsewhere such as [The Littlest JupyterHub deplo
 When I started teaching and advocating the use of technologies such as git I used to make a prediction *These practices are so obviously good for computational research that they will one day be mandated by journal editors and funding providers.  As such, you may as well get ahead of the curve and start using them now before the day comes when your funding is cut off because you don't.*  The resulting debate was usually good fun.
 
 My prediction is yet to come true across the board but it is increasingly becoming the case where eyebrows are raised when papers that rely on software are published don't come with the supporting software and data.  Research Software Engineers (RSEs) are increasingly being added to funding review panels and they may be Reviewer 2 for your latest paper submission.   
+
+# Other uses of git and GitHub for busy academics
+
+It's not just about code.....
+
+* [Build your own websites using GitHub pasges](https://pages.github.com/).  Every repo can have its own website served directly from GitHub
+* [Put your presentations on GitHub](https://github.com/hakimel/reveal.js/).  I use reveal.js combined with GitHub pages to build and serve my presentations.  That way, whenever I turn up at an event to speak I can use whatever computer is plugged into the projector.  No more 'I don't have the right adaptor' hell for me.  
+* [Write your next grant proposal](http://www.walkingrandomly.com/?p=5649).  Use Markdown, LaTex or some other git-friendly text format and use git and GitHub to collaboratively write your next grant proposal
 
 # Further Resources
 
