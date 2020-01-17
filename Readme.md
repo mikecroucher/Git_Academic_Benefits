@@ -144,6 +144,10 @@ Once your code is in GitHub, it is straightforward to archive the version that g
 
 ## Which version gave these results?
 
+Anyone who has worked with software long enough knows that simply stating the name of the software you used is often insufficient to ensure that someone else could reproduce your results. To help improve the odds, you should state **exactly** which version of the software you used and one way to do this is to refer to the [git commit hash](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History).  Alternatively, you could go one step better and make a [GitHub release](https://help.github.com/en/github/administering-a-repository/creating-releases) of the version of your project used for your latest paper, get it a DOI and cite it.
+
+This doesn't guarentee reproducibility but its a step in the right direction.  For extra points, you may consider making the computational environment reproducible too (e.g. all of the dependencies used by your script -- Python modules, R packages and so on) using technologies such as [Docker](https://www.docker.com/), [Conda](https://docs.conda.io/en/latest/) and [MRAN](https://mran.microsoft.com/) but further discussion of these is out of scope for this article.
+
 ## Building a computational environment based on your repo
 
 ## Complying with funding and journal guidelines
