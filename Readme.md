@@ -57,7 +57,7 @@ The power of this simple idea cannot be overstated.  Whenever you (or anyone els
 
 The latest version of your analysis or simulation is different from the previous one. Thanks to this, it may now give different results today compared to yesterday. Version control allows you to keep track of everything that changed between two versions.  Every line of code you added, deleted or changed is highlighted.  Combined with your commit messages where you explain why you made each set of changes, this forms a useful record of the evolution of your project.
 
-![Commit Example](./commit_example.png)
+![Commit Example](./assets/commit_example.png)
 
 It is possible to compare the differences between **any** two commits, not just two consecutive ones which allows you to track the evolution of your project over time.
 
@@ -110,17 +110,32 @@ How git and GitHub can make it easier to collaborate with others on computationa
 
 ## Control exactly who can see your work
 
+'I don't want to use GitHub because I want to keep my project private' is a common reason given to me for not using the service.  The ability to create private repositories has been free for some time now (Price plans are available here https://github.com/pricing) and you can have up to 3 collaborators on any of your private repos before you need to start paying.  This is probably enough for most small academic projects. 
+
+This means that you can control exactly who sees your code.  In the early stages it can be just you. At some point you let a couple of trusted collaborators in and when the time is right you can make the repo public so everyone can enjoy and use your work alongside the paper(s) it supports.
+
 ## Faciliate discussion about your work
 
+Every GitHub repo comes with an [Issues section](https://guides.github.com/features/issues/) which is effectively a discussion forum for the project.  You can use it to keep track of your project To-Do list, bugs, documentation discussions and so on.  The issues log can also be integrated with your commit history.  This allows you to do things like `git commit -m "Improve the foo algorithm according to the discussion in #34"` where #34 refers to the Issue discussion where your collaborator pointed out
+
 ## Allow others to contribute to your work
+
+You have absolute control over external contributions!  No one can make any modifications to your project without your explicit say-so. 
+
+I start with the above statement because I've found that when explaining how easy it is to collaborate on GitHub, the first question is almost always 'How do I keep control of all of this?'
+
+What happens is that anyone can 'fork' your project into their account.  That is, they have an independent copy of your work that is clearly linked back to your original.  They can happily work away on their copy as much as they like -- with no involvement from you.  If and when they want to suggest that some of their modifications should go into your original version, they make a 'Pull **Request**'.  
+I emphasised the word 'Request' because that's exactly what it is.  You can completely ignore it if you want and your project will remain unchanged.  Alternatively you might choose to discuss it with the contributor and make modifications of your own before accepting it.  At the other end of the spectrum you might simply say 'looks cool' and accept it immediately.  
+
+Congratulations, you've just found a contributing collaborator.
 
 # Reproducible research
 
 How git and GitHub can contribute to improved reproducible research.
 
-## Which version gave these results?
-
 ## Making your software citable
+
+## Which version gave these results?
 
 ## Building a computational environment based on your repo
 
