@@ -128,6 +128,7 @@ You have absolute control over external contributions!  No one can make any modi
 I start with the above statement because I've found that when explaining how easy it is to collaborate on GitHub, the first question is almost always 'How do I keep control of all of this?'
 
 What happens is that anyone can 'fork' your project into their account.  That is, they have an independent copy of your work that is clearly linked back to your original.  They can happily work away on their copy as much as they like -- with no involvement from you.  If and when they want to suggest that some of their modifications should go into your original version, they make a 'Pull **Request**'.  
+
 I emphasised the word 'Request' because that's exactly what it is.  You can completely ignore it if you want and your project will remain unchanged.  Alternatively you might choose to discuss it with the contributor and make modifications of your own before accepting it.  At the other end of the spectrum you might simply say 'looks cool' and accept it immediately.  
 
 Congratulations, you've just found a contributing collaborator.
@@ -135,6 +136,10 @@ Congratulations, you've just found a contributing collaborator.
 # Reproducible research
 
 How git and GitHub can contribute to improved reproducible research.
+
+## Simply making your software available
+
+A paper published without the supporting software and data is (much!) harder to reproduce than one that has both. 
 
 ## Making your software citable
 
@@ -148,15 +153,19 @@ Anyone who has worked with software long enough knows that simply stating the na
 
 This doesn't guarentee reproducibility but its a step in the right direction.  For extra points, you may consider making the computational environment reproducible too (e.g. all of the dependencies used by your script -- Python modules, R packages and so on) using technologies such as [Docker](https://www.docker.com/), [Conda](https://docs.conda.io/en/latest/) and [MRAN](https://mran.microsoft.com/) but further discussion of these is out of scope for this article.
 
-## Building a computational environment based on your repo
+## Building a computational environment based on your repository
+
+Once your project is on GitHub, it is possible to integrate it with many other online services.  One such service is [mybinder](https://mybinder.org/) which allows the generation of an executable environment based on the contents of your repository. This makes your code immediately reproducible by anyone, anywhere.
+
+Similar projects are popping up elsewhere such as [The Littlest JupyterHub deploy to Azure button](https://github.com/trallard/TLJH-azure-button) which allows you to add a button to your GitHub repo that, when pressed by a user, builds a server in their Azure cloud account complete with your code and a computational environment specified by you along with a JupterHub instance that allows them to run Jupyter notebooks.  This allows you to write interactive papers based on your software and data that can be used by anyone.
 
 ## Complying with funding and journal guidelines
 
+When I started teaching and advocating the use of technologies such as git I used to make a prediction *These practices are so obviously good for computational research that they will one day be mandated by journal editors and funding providers.  As such, you may as well get ahead of the curve and start using them now before the day comes when your funding is cut off because you don't.*  The resulting debate was usually good fun.
+
+My prediction is yet to come true across the board but it is increasingly becoming the case where eyebrows are raised when papers that rely on software are published don't come with the supporting software and data.  Research Software Engineers (RSEs) are increasingly being added to funding review panels and they may be Reviewer 2 for your latest paper submission.   
+
 # Further Resources
-
-**Graphical User Interfaces to git**
-
-PLACEHOLDER FOR GIT DESKTOP, GIT KRACKEN AND ALL THAT JAZZ
 
 **Further discussions from scientific computing practitioners that discuss using version control as part of a healthy approach to scientific computing**
 
@@ -171,4 +180,10 @@ Convinced? Want to start learning?  Let's begin!
 
 * [Git lesson from Software Carpentry](https://swcarpentry.github.io/git-novice/) - A free, community written tutorial on the basics of git version control
 
+**Graphical User Interfaces to git**
+
+If the command line scares you, try these.
+
+* [GitHub Desktop](https://desktop.github.com/)
+* [Git Kracken](https://www.gitkraken.com/)
 
