@@ -55,9 +55,23 @@ The power of this simple idea cannot be overstated.  Whenever you (or anyone els
 
 ## Keeping track of everything that changed
 
-## Always having a working version
+The latest version of your analysis or simulation is different from the previous one. Thanks to this, it may now give different results today compared to yesterday. Version control allows you to keep track of everything that changed between two versions.  Every line of code you added, deleted or changed is highlighted.  Combined with your commit messages where you explain why you made each set of changes, this forms a useful record of the evolution of your project.
 
-## Tracking down what went wrong with your code
+![Commit Example](./commit_example.png)
+
+It is possible to compare the differences between **any** two commits, not just two consecutive ones which allows you to track the evolution of your project over time.
+
+## Always having a working version of your project
+
+Ever noticed how your collaborator turns up unnanounced just as you are in the middle of hacking on your code.  They want you to show them your simulation running but right now its broken!  You frantically try some of the other files in your folder but none of them seem to be the version that was working last week when you sent the report that moved your collaborator to come to see you.
+
+If you were using version control you could easily stash your current work, revert to the last good commit and show off your work.
+
+## Tracking down what went wrong
+
+You are always changing that script and you test it as much as you can but the fact is that the version from last year is giving correct results in some edge case while your current version is not.  There are 100 versions between the two and there's a lot of code in each version!  When did this edge case start to go wrong?
+
+With git you can use [git bisect](https://neliosoftware.com/blog/git-bisect-to-find-faulty-commit/) to help you track down which commit started causing the problem which is the first step towards fixing it.
 
 ## Providing a back up of your project
 
