@@ -80,6 +80,8 @@ You are always changing that script and you test it as much as you can but the f
 
 With git you can use [git bisect](https://neliosoftware.com/blog/git-bisect-to-find-faulty-commit/) to help you track down which commit started causing the problem which is the first step towards fixing it.
 
+![It has all gone wrong](./assets/fire_gif.gif)
+
 ## Providing a back up of your project
 
 Try this thought experiment:  Your laptop/PC has gone! Fire, theft, dead hard disk or crazy panda attack.
