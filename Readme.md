@@ -41,7 +41,8 @@ mycode.py
 
 All of the other versions will still be available via the commit history.  Nothing is ever lost and you'll be able to effectively go back in time to any version of `mycode.py` you like.
 
-![Git Resolution](https://twitter.com/garabatokid/status/1218104099234832387/photo/1)
+
+<a href="https://twitter.com/garabatokid/status/1218104099234832387"><img src="./assets/git_resolution.png" width="400"></img></a>
 
 ## A single point of truth
 
