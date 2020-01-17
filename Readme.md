@@ -41,6 +41,8 @@ mycode.py
 
 All of the other versions will still be available via the commit history.  Nothing is ever lost and you'll be able to effectively go back in time to any version of `mycode.py` you like.
 
+![Git Resolution](https://twitter.com/garabatokid/status/1218104099234832387/photo/1)
+
 ## A single point of truth
 
 I've even seen folders like the one above passed down generations of PhD students like some sort of family heirloom.  I've seen labs where multple such folders exist across a dozen machines, each one with a mixture of duplicated and unique files.  That is, not only is there a confusing mess of files in a folder but there is a confusing mess of these folders! 
