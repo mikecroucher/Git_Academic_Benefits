@@ -194,7 +194,7 @@ Convinced? Want to start learning?  Let's begin!
 
 **Graphical User Interfaces to git**
 
-If the command line scares you, try these.
+If you prefer not to use the command line, try these
 
 * [GitHub Desktop](https://desktop.github.com/)
 * [Git Kracken](https://www.gitkraken.com/)
