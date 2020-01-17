@@ -135,9 +135,15 @@ How git and GitHub can contribute to improved reproducible research.
 
 ## Making your software citable
 
+Most modern research cannot be done without some software element.  Even if all you did was run a simple statistical test on 20 small samples, your paper has a data and software dependency.  Organisations such as the [Software Sustainability Institute](https://www.software.ac.uk/) and the [UK Research Software Engineering Association](https://rse.ac.uk/) (among many others) have been arguing for many years that such software and data dependencies should be part of the scholarly record alongside the papers that discuss them.  That is, they should be archived and referenced with a permanent Digital Object Identifier (DOI).
+
+Once your code is in GitHub, it is straightforward to archive the version that goes with your latest paper and get it its own DOI using services such as [Zenodo](https://zenodo.org/).  Your University may also have its own archival system.  For example, The University of Sheffield in the UK has built a system called [ORDA](https://www.sheffield.ac.uk/library/rdm/orda) which is based on an institutional Figshare instance which allows Sheffield academics to deposit code and data for long term archival.
+
 ## Which version gave these results?
 
 ## Building a computational environment based on your repo
+
+## Complying with funding and journal guidelines
 
 # Further Resources
 
