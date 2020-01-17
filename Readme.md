@@ -84,7 +84,7 @@ With git you can use [git bisect](https://neliosoftware.com/blog/git-bisect-to-f
 
 ## Providing a back up of your project
 
-Try this thought experiment:  Your laptop/PC has gone! Fire, theft, dead hard disk or crazy panda attack.
+Try this thought experiment:  Your laptop/PC has gone! Fire, theft, dead hard disk or crazed panda attack.
 
 ![He found out that they weren't using version control](./assets/angry_panda.gif)
 
@@ -114,6 +114,8 @@ You've sipped of the KoolAid and you've been writing unit tests like a pro.  Git
 Once its all set up the CI service runs every time you, or anyone else, makes a commit to your project. Every time the CI service runs, a virtual machine is created from scratch, your project is installed into it and all of your tests are run with any failures reported.  
 
 This gives you increased confidence that everything is OK with your latest version and you can choose to only accept commits that do not break your testing framework.
+
+![JD Cook](./assets/jdcook_tweet.png)
 
 # Collaboration and Community
 
